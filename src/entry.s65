@@ -40,7 +40,8 @@ irq:
                 rti
 
 _init:
-                sei                
+                sei
+                clc
                 cld
                 clv
                 ldx #$ff
